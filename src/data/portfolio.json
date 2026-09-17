@@ -1,0 +1,286 @@
+{
+  "person": {
+    "name": "Naif Alqubalee",
+    "initials": "NA",
+    "role": "Backend Software Engineer",
+    "location": "Khobar, Saudi Arabia",
+    "availability": "Open to backend engineering opportunities",
+    "headline": "Backend Software Engineer | Building Secure, Scalable, & Maintainable Systems",
+    "subheadline": "Specializing in NestJS, Node.js, TypeScript, and PostgreSQL.",
+    "email": "naif@qubalee.com",
+    "bio": "I turn ambitious product ideas into resilient backend systems. My work centers on dependable REST APIs, thoughtful relational data models, JWT and role-based access control, and repeatable Docker-based delivery.",
+    "copyright": "Naif Alqubalee. Built with care and clean code."
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "Certifications",
+      "href": "#certifications"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "principles": [
+    {
+      "label": "Clean Code",
+      "icon": "Braces"
+    },
+    {
+      "label": "Scalable Architecture",
+      "icon": "Network"
+    },
+    {
+      "label": "Security",
+      "icon": "ShieldCheck"
+    },
+    {
+      "label": "Continuous Learning",
+      "icon": "BookOpenCheck"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Core & Languages",
+      "icon": "Code2",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Node.js"
+      ]
+    },
+    {
+      "category": "Frameworks & ORMs",
+      "icon": "Blocks",
+      "items": [
+        "NestJS",
+        "TypeORM"
+      ]
+    },
+    {
+      "category": "Databases & Security",
+      "icon": "Database",
+      "items": [
+        "PostgreSQL",
+        "Relational Database Design",
+        "JWT",
+        "Role-Based Access Control (RBAC)"
+      ]
+    },
+    {
+      "category": "DevOps & Tools",
+      "icon": "Container",
+      "items": [
+        "Docker",
+        "Git",
+        "GitHub",
+        "Postman"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "FundChain",
+      "subtitle": "Blockchain-Based Community Funding Platform",
+      "date": "Sep 2025 — Apr 2026",
+      "description": "A secure funding platform with transparent campaign workflows, verifiable transactions, and role-aware administrative controls.",
+      "technologies": [
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Blockchain"
+      ],
+      "repository": "https://github.com/nq001"
+    },
+    {
+      "title": "Commerce & Order Management Platform",
+      "subtitle": "Modular commerce backend",
+      "date": "Sep 2026",
+      "description": "A maintainable order lifecycle service with inventory coordination, transactional consistency, and clear domain boundaries.",
+      "technologies": [
+        "Node.js",
+        "NestJS",
+        "TypeORM",
+        "PostgreSQL"
+      ],
+      "repository": "https://github.com/nq001"
+    },
+    {
+      "title": "Task Manager API",
+      "subtitle": "Secure productivity service",
+      "date": "Aug 2026",
+      "description": "A documented REST API for managing personal tasks with validated requests, JWT authentication, and ownership controls.",
+      "technologies": [
+        "NestJS",
+        "JWT",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "repository": "https://github.com/nq001"
+    },
+    {
+      "title": "Contact Management API",
+      "subtitle": "Structured contact data platform",
+      "date": "Aug 2026",
+      "description": "A reliable CRUD API featuring clean modular architecture, robust validation, searchable records, and consistent errors.",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "TypeORM",
+        "Postman"
+      ],
+      "repository": "https://github.com/nq001"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Hugging Face Agents Course",
+      "credential": "Certificate of Excellence",
+      "issuer": "Hugging Face",
+      "icon": "HuggingFace"
+    },
+    {
+      "title": "Machine Learning Foundations",
+      "credential": "AWS Educate",
+      "issuer": "AWS",
+      "icon": "AWS"
+    },
+    {
+      "title": "Introducing Generative AI with AWS",
+      "credential": "Course Certificate",
+      "issuer": "Udacity",
+      "icon": "Udacity"
+    },
+    {
+      "title": "Relational Database V8",
+      "credential": "Developer Certification",
+      "issuer": "freeCodeCamp",
+      "icon": "FreeCodeCamp"
+    },
+    {
+      "title": "Legacy Responsive Web Design V8",
+      "credential": "Developer Certification",
+      "issuer": "freeCodeCamp",
+      "icon": "FreeCodeCamp"
+    },
+    {
+      "title": "Software Development Job Simulation",
+      "credential": "Completion Certificate",
+      "issuer": "Datacom · Forage",
+      "icon": "Datacom"
+    },
+    {
+      "title": "Product Management Job Simulation",
+      "credential": "Completion Certificate",
+      "issuer": "Forage",
+      "icon": "Forage"
+    }
+  ],
+  "socials": [
+    {
+      "label": "Github.com/nq001",
+      "url": "https://github.com/nq001",
+      "icon": "Github"
+    },
+    {
+      "label": "Linkedin.com/in/naifalqubalee",
+      "url": "https://www.linkedin.com/in/naifalqubalee",
+      "icon": "Linkedin"
+    },
+    {
+      "label": "naif@qubalee.com",
+      "url": "mailto:naif@qubalee.com",
+      "icon": "Mail"
+    }
+  ],
+  "code": [
+    [
+      "keyword",
+      "@Controller"
+    ],
+    [
+      "plain",
+      "('projects')"
+    ],
+    [
+      "line",
+      ""
+    ],
+    [
+      "keyword",
+      "export class"
+    ],
+    [
+      "type",
+      " ProjectsController "
+    ],
+    [
+      "plain",
+      "{"
+    ],
+    [
+      "line",
+      "  constructor("
+    ],
+    [
+      "keyword",
+      "    private readonly"
+    ],
+    [
+      "plain",
+      " service: ProjectsService,"
+    ],
+    [
+      "line",
+      "  ) {}"
+    ],
+    [
+      "line",
+      ""
+    ],
+    [
+      "decorator",
+      "  @Get()"
+    ],
+    [
+      "keyword",
+      "  async"
+    ],
+    [
+      "type",
+      " findAll"
+    ],
+    [
+      "plain",
+      "() {"
+    ],
+    [
+      "keyword",
+      "    return"
+    ],
+    [
+      "plain",
+      " this.service.findAll();"
+    ],
+    [
+      "line",
+      "  }"
+    ],
+    [
+      "plain",
+      "}"
+    ]
+  ]
+}
