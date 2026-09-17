@@ -55,19 +55,12 @@
     {
       "category": "Core & Languages",
       "icon": "Code2",
-      "items": [
-        "TypeScript",
-        "JavaScript",
-        "Node.js"
-      ]
+      "items": ["TypeScript", "JavaScript", "Node.js"]
     },
     {
       "category": "Frameworks & ORMs",
       "icon": "Blocks",
-      "items": [
-        "NestJS",
-        "TypeORM"
-      ]
+      "items": ["NestJS", "TypeORM"]
     },
     {
       "category": "Databases & Security",
@@ -82,12 +75,7 @@
     {
       "category": "DevOps & Tools",
       "icon": "Container",
-      "items": [
-        "Docker",
-        "Git",
-        "GitHub",
-        "Postman"
-      ]
+      "items": ["Docker", "Git", "GitHub", "Postman"]
     }
   ],
   "projects": [
@@ -96,12 +84,7 @@
       "subtitle": "Blockchain-Based Community Funding Platform",
       "date": "Sep 2025 — Apr 2026",
       "description": "A secure funding platform with transparent campaign workflows, verifiable transactions, and role-aware administrative controls.",
-      "technologies": [
-        "NestJS",
-        "TypeScript",
-        "PostgreSQL",
-        "Blockchain"
-      ],
+      "technologies": ["NestJS", "TypeScript", "PostgreSQL", "Blockchain"],
       "repository": "https://github.com/nq001"
     },
     {
@@ -109,39 +92,24 @@
       "subtitle": "Modular commerce backend",
       "date": "Sep 2026",
       "description": "A maintainable order lifecycle service with inventory coordination, transactional consistency, and clear domain boundaries.",
-      "technologies": [
-        "Node.js",
-        "NestJS",
-        "TypeORM",
-        "PostgreSQL"
-      ],
-      "repository": "https://github.com/nq001"
+      "technologies": ["Node.js", "NestJS", "TypeORM", "PostgreSQL"],
+      "repository": "https://github.com/nq001/commerce-order-management-platform"
     },
     {
       "title": "Task Manager API",
       "subtitle": "Secure productivity service",
       "date": "Aug 2026",
       "description": "A documented REST API for managing personal tasks with validated requests, JWT authentication, and ownership controls.",
-      "technologies": [
-        "NestJS",
-        "JWT",
-        "PostgreSQL",
-        "Docker"
-      ],
-      "repository": "https://github.com/nq001"
+      "technologies": ["NestJS", "JWT", "PostgreSQL", "Docker"],
+      "repository": "https://github.com/nq001/task-manager-api"
     },
     {
       "title": "Contact Management API",
       "subtitle": "Structured contact data platform",
       "date": "Aug 2026",
       "description": "A reliable CRUD API featuring clean modular architecture, robust validation, searchable records, and consistent errors.",
-      "technologies": [
-        "TypeScript",
-        "Node.js",
-        "TypeORM",
-        "Postman"
-      ],
-      "repository": "https://github.com/nq001"
+      "technologies": ["TypeScript", "Node.js", "TypeORM", "Postman"],
+      "repository": "https://github.com/nq001/contact-management-api"
     }
   ],
   "certifications": [
@@ -206,81 +174,24 @@
     }
   ],
   "code": [
-    [
-      "keyword",
-      "@Controller"
-    ],
-    [
-      "plain",
-      "('projects')"
-    ],
-    [
-      "line",
-      ""
-    ],
-    [
-      "keyword",
-      "export class"
-    ],
-    [
-      "type",
-      " ProjectsController "
-    ],
-    [
-      "plain",
-      "{"
-    ],
-    [
-      "line",
-      "  constructor("
-    ],
-    [
-      "keyword",
-      "    private readonly"
-    ],
-    [
-      "plain",
-      " service: ProjectsService,"
-    ],
-    [
-      "line",
-      "  ) {}"
-    ],
-    [
-      "line",
-      ""
-    ],
-    [
-      "decorator",
-      "  @Get()"
-    ],
-    [
-      "keyword",
-      "  async"
-    ],
-    [
-      "type",
-      " findAll"
-    ],
-    [
-      "plain",
-      "() {"
-    ],
-    [
-      "keyword",
-      "    return"
-    ],
-    [
-      "plain",
-      " this.service.findAll();"
-    ],
-    [
-      "line",
-      "  }"
-    ],
-    [
-      "plain",
-      "}"
-    ]
+    ["keyword", "@Controller"],
+    ["plain", "('projects')"],
+    ["line", ""],
+    ["keyword", "export class"],
+    ["type", " ProjectsController "],
+    ["plain", "{"],
+    ["line", "  constructor("],
+    ["keyword", "    private readonly"],
+    ["plain", " service: ProjectsService,"],
+    ["line", "  ) {}"],
+    ["line", ""],
+    ["decorator", "  @Get()"],
+    ["keyword", "  async"],
+    ["type", " findAll"],
+    ["plain", "() {"],
+    ["keyword", "    return"],
+    ["plain", " this.service.findAll();"],
+    ["line", "  }"],
+    ["plain", "}"]
   ]
 }
