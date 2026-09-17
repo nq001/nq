@@ -69,3 +69,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  on-failure:
+    name: Handle Failure (Rollback/Notify)
+    runs-on: ubuntu-latest
+    needs: [build, deploy]
+    if: ${{ always() && (needs.build.result == 'failure' || needs.deploy.result == 'failure') }}
+    steps:
+      - name: Failure Placeholder
+        run: |
+          echo "The build or deployment failed!"
+          echo "Future rollback scripts, Slack notifications, or email alerts can be added here."
